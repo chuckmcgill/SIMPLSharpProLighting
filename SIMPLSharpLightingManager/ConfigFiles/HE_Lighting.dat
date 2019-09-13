@@ -1,0 +1,278 @@
+{
+	"configFileVersion": "3.0",
+	"systemName": "Home Elements 1",
+	"rooms": [{
+			"id": "1d",
+			"name": "Dining Room",
+			"shortName": "Dining Room",
+			"loadList": "1",
+			"sceneList": ""
+		},
+		{
+			"id": "2d",
+			"name": "Outside",
+			"shortName": "Outside",
+			"loadList": "3,4,5,6,16",
+			"sceneList": ""
+		},
+		{
+			"id": "3d",
+			"name": "Kitchen",
+			"shortName": "Kitchen",
+			"loadList": "12,13,14,15,17,18",
+			"sceneList": ""
+		},
+		{
+			"id": "4d",
+			"name": "Living Room",
+			"shortName": "Living Room",
+			"loadList": "9,11",
+			"sceneList": ""
+		},
+		{
+			"id": "5d",
+			"name": "Office",
+			"shortName": "Office",
+			"loadList": "1,2",
+			"sceneList": ""
+		},
+		{
+			"id": "6d",
+			"name": "Upstairs Hallway",
+			"shortName": "Upstairs Hallway",
+			"loadList": "1,2",
+			"sceneList": ""
+		},
+		{
+			"id": "7d",
+			"name": "Master Bedroom",
+			"shortName": "Master",
+			"loadList": "1,2",
+			"sceneList": ""
+		},
+		{
+			"id": "8d",
+			"name": "Bedroom 1",
+			"shortName": "Bedroom1",
+			"loadList": "1,2",
+			"sceneList": "1,2"
+		},
+		{
+			"id": "9d",
+			"name": "Bedroom 2",
+			"shortName": "Bedroom2",
+			"loadList": "1,2",
+			"sceneList": "1,2"
+		},
+		{
+			"id": "10d",
+			"name": "Upstairs",
+			"shortName": "Upstairs",
+			"loadList": "1,2",
+			"sceneList": "1,2"
+		},
+		{
+			"id": "11d",
+			"name": "Downstairs Hallway",
+			"shortName": "Downstairs Hallway",
+			"loadList": "7,8,20",
+			"sceneList": ""
+		},
+		{
+			"id": "12d",
+			"name": "Breakfast Nook",
+			"shortName": "Breakfast Nook",
+			"loadList": "19",
+			"sceneList": ""
+		},
+		{
+			"id": "13d",
+			"name": "Patio",
+			"shortName": "Patio",
+			"loadList": "10",
+			"sceneList": ""
+		},
+		{
+			"id": "14d",
+			"name": "Whole Home",
+			"shortName": "Home",
+			"loadList": "all",
+			"sceneList": ""
+		}
+	],
+	"loads": [{
+		"id": "1d",
+		"name": "Master Bedroom Lights",
+		"lightDeviceId": "1d",
+		"loadNumber": "1d"
+	}, {
+		"id": "2d",
+		"name": "Master Bedroom Lamp",
+		"lightDeviceId": "2d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "3d",
+		"name": "Outdoor Flood Lights",
+		"lightDeviceId": "3d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "4d",
+		"name": "Front Entrance Lights",
+		"lightDeviceId": "4d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "5d",
+		"name": "Ridge Lighting",
+		"lightDeviceId": "5d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "6d",
+		"name": "Front Door Lighting",
+		"lightDeviceId": "6d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "7d",
+		"name": "Master Hallway Lights",
+		"lightDeviceId": "7d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "8d",
+		"name": "Main Hallway Lights",
+		"lightDeviceId": "8d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "9d",
+		"name": "Fireplace Accent",
+		"lightDeviceId": "9d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "10d",
+		"name": "Patio Lighting",
+		"lightDeviceId": "10d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "11d",
+		"name": "Living Room Main",
+		"lightDeviceId": "11d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "12d",
+		"name": "Kitchen Light",
+		"lightDeviceId": "12d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "13d",
+		"name": "Kitchen Island Light",
+		"lightDeviceId": "13d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "14d",
+		"name": "Kitchen Upper Accent",
+		"lightDeviceId": "14d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "15d",
+		"name": "Kitchen Lower Accent",
+		"lightDeviceId": "15d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "16d",
+		"name": "Outdoor Garage Lighting",
+		"lightDeviceId": "16d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "17d",
+		"name": "Kitchen Bar Lighting",
+		"lightDeviceId": "17d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "18d",
+		"name": "Kitchen Sink Lighting",
+		"lightDeviceId": "18d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "19d",
+		"name": "Breakfast Nook Lighting",
+		"lightDeviceId": "19d",
+		"loadNumber": "1d"
+	},
+	{
+		"id": "20d",
+		"name": "Garage Hallway Lighting",
+		"lightDeviceId": "20d",
+		"loadNumber": "1d"
+	}
+	],
+	"scenes": [{
+			"id": "1d",
+			"name": "Scene 1",
+			"wholeHome": "false",
+			"loadStates": [{
+					"id": "1d",
+					"level": "100%",
+					"loadlist": "1"
+				},
+				{
+					"id": "2d",
+					"level": "50%",
+					"loadlist": "2"
+				}
+			]
+		},
+		{
+			"id": "2d",
+			"name": "Scene 2",
+			"wholeHome": "false",
+			"loadStates": [{
+					"id": "1d",
+					"level": "100%",
+					"loadlist": "2"
+				},
+				{
+					"id": "2d",
+					"level": "50%",
+					"loadlist": "1"
+				}
+			]
+		},
+		{
+			"id": "3d",
+			"name": "Whole Home On",
+			"wholeHome": "true",
+			"loadStates": [{
+					"id": "1d",
+					"level": "100%",
+					"loadlist": "all"
+				}
+			]
+		},
+		{
+			"id": "4d",
+			"name": "Whole Home Off",
+			"wholeHome": "true",
+			"loadStates": [{
+					"id": "1d",
+					"level": "0%",
+					"loadlist": "all"
+				}
+			]
+		}
+	]
+}

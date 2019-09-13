@@ -1,0 +1,176 @@
+{
+	"configFileVersion": "3.0",
+	"systemName": "Home Elements 1",
+	"gateways": [
+	{
+		"id": "1d",
+		"ipid": "20h",
+		"type": "CenRfgwExEthernetSharable",
+		"description": "desc1"
+	},
+	{
+		"id": "2d",
+		"ipid": "21h",
+		"type": "CenRfgwExEthernetSharable",
+		"description": "desc2"
+	}],
+	"devices": [{
+		"id": "1d",
+		"rfid": "20h",
+		"type": "ClwDimexP",
+		"description": "desc1",
+		"gateway": "1d"
+	},
+	{
+		"id": "2d",
+		"rfid": "21h",
+		"type": "ClwSwexP",
+		"description": "desc2",
+		"gateway": "1d"
+	},
+	{
+		"id": "3d",
+		"rfid": "22h",
+		"type": "ClwSwexP",
+		"description": "desc3",
+		"gateway": "1d"
+	},
+	{
+		"id": "4d",
+		"rfid": "23h",
+		"type": "ClwSwexP",
+		"description": "desc4",
+		"gateway": "1d"
+	},
+	{
+		"id": "5d",
+		"rfid": "24h",
+		"type": "ClwSwexP",
+		"description": "desc5",
+		"gateway": "1d"
+	},
+	{
+		"id": "6d",
+		"rfid": "25h",
+		"type": "ClwSwexP",
+		"description": "desc6",
+		"gateway": "1d"
+	},
+	{
+		"id": "7d",
+		"rfid": "26h",
+		"type": "ClwDimexP",
+		"description": "desc7",
+		"gateway": "1d"
+	},
+	{
+		"id": "8d",
+		"rfid": "27h",
+		"type": "ClwDimexP",
+		"description": "desc8",
+		"gateway": "1d"
+	},
+	{
+		"id": "9d",
+		"rfid": "28h",
+		"type": "ClwDimexP",
+		"description": "desc9",
+		"gateway": "1d"
+	},
+	{
+		"id": "10d",
+		"rfid": "29h",
+		"type": "ClwDimexP",
+		"description": "desc10",
+		"gateway": "1d"
+	},
+	{
+		"id": "11d",
+		"rfid": "30h",
+		"type": "ClwDimexP",
+		"description": "desc11",
+		"gateway": "1d"
+	},
+		{
+		"id": "12d",
+		"rfid": "20h",
+		"type": "ClwDimexP",
+		"description": "desc8",
+		"gateway": "2d"
+	},
+	{
+		"id": "13d",
+		"rfid": "21h",
+		"type": "ClwDimexP",
+		"description": "desc9",
+		"gateway": "2d"
+	},
+	{
+		"id": "14d",
+		"rfid": "22h",
+		"type": "ClwSwexP",
+		"description": "desc10",
+		"gateway": "2d"
+	},
+	{
+		"id": "15d",
+		"rfid": "23h",
+		"type": "ClwSwexP",
+		"description": "desc11",
+		"gateway": "2d"
+	},
+	{
+		"id": "16d",
+		"rfid": "24h",
+		"type": "ClwSwexP",
+		"description": "desc11",
+		"gateway": "2d"
+	},
+		{
+		"id": "17d",
+		"rfid": "25h",
+		"type": "ClwDimexP",
+		"description": "desc9",
+		"gateway": "2d"
+	},
+	{
+		"id": "18d",
+		"rfid": "26h",
+		"type": "ClwDimexP",
+		"description": "desc10",
+		"gateway": "2d"
+	},
+	{
+		"id": "19d",
+		"rfid": "27h",
+		"type": "ClwDimexP",
+		"description": "desc11",
+		"gateway": "2d"
+	},
+	{
+		"id": "20d",
+		"rfid": "28h",
+		"type": "ClwDimexP",
+		"description": "desc11",
+		"gateway": "2d"
+	}],
+	"touchpanels": [
+	{
+		"id": "1d",
+		"ipid": "70h",
+		"type": "EthernetIntersystemCommunications",
+		"description": "TP_3"
+	},
+	{
+		"id": "2d",
+		"ipid": "71h",
+		"type": "EthernetIntersystemCommunications",
+		"description": "TP_7"
+	},
+	{
+		"id": "3d",
+		"ipid": "72h",
+		"type": "EthernetIntersystemCommunications",
+		"description": "TP_8"
+	}]
+}

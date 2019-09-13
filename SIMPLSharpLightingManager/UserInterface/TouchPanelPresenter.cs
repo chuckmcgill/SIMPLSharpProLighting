@@ -13,8 +13,6 @@ namespace SIMPLSharpLightingManager.UserInterfaces
     public class TouchPanelPresenter
     {
 
-        //   private KuleszaHome _home;
-
         ITouchPanelView _view;
 
         private LightedRoom _attachedRoom;
