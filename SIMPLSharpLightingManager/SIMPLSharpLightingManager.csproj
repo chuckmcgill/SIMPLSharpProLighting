@@ -1,0 +1,177 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9331E459-85F5-4034-A4F0-3090BF17CDAC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SIMPLSharpLightingManager</RootNamespace>
+    <AssemblyName>SIMPLSharpLightingManager</AssemblyName>
+    <ProjectTypeGuids>{0B4745B0-194B-4BB6-8E21-E9057CA92230};{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>SmartDeviceProject1</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <AllowedReferenceRelatedFileExtensions>.allowedReferenceRelatedFileExtensions</AllowedReferenceRelatedFileExtensions>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AllowedReferenceRelatedFileExtensions>.allowedReferenceRelatedFileExtensions</AllowedReferenceRelatedFileExtensions>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FileAlignment>512</FileAlignment>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Crestron.SimplSharpPro.AudioDistribution, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.AudioDistribution.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.CrestronConnected, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.CrestronConnected.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.DeviceSupport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.DeviceSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.DM, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.DM.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.EthernetCommunications, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.EthernetCommunications.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Fusion, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Fusion.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Gateways, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Gateways.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.GeneralIO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.GeneralIO.dll</HintPath>
+    </Reference>
+    <Reference Include="Crestron.SimplSharpPro.Lighting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SSPDevices\Crestron.SimplSharpPro.Lighting.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib" />
+    <Reference Include="Newtonsoft.Json.Compact, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\Newtonsoft.Json.Compact.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpAutoUpdateInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpAutoUpdateInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpCustomAttributesInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpCustomAttributesInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpHelperInterface, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpHelperInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpPro, Version=1.5.3.17, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpPro.exe</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpReflectionInterface, Version=1.0.5583.25238, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpReflectionInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SimplSharpTimerEventInterface, Version=1.0.6197.20052, Culture=neutral, PublicKeyToken=1099c178b3b54c3b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ProgramData\Crestron\SDK\SimplSharpTimerEventInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="SSharpDateTimeLibrary, Version=1.0.0.28863, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\HomeElements_SimplSharpPro\Libraries\SSharpDateTimeLibrary-master\SSharpDateTimeLibrary\bin\Debug\SSharpDateTimeLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlSystem.cs" />
+    <Compile Include="Configuration\TouchpanelDeviceInformation.cs" />
+    <Compile Include="Configuration\SerializationLoadState.cs" />
+    <Compile Include="Configuration\SerializationScene.cs" />
+    <Compile Include="Configuration\SerializationLightLoad.cs" />
+    <Compile Include="Configuration\LightSystemSettings.cs" />
+    <Compile Include="Configuration\LightingDeviceInformation.cs" />
+    <Compile Include="Configuration\GatewayDeviceInformation.cs" />
+    <Compile Include="Configuration\LightDeviceSettings.cs" />
+    <Compile Include="EventBus\IMapper.cs" />
+    <Compile Include="EventBus\IMessageHub.cs" />
+    <Compile Include="EventBus\MessageHub.cs" />
+    <Compile Include="EventBus\Subscription.cs" />
+    <Compile Include="EventBus\Subscriptions.cs" />
+    <Compile Include="Events\LoadIsOnEvent.cs" />
+    <Compile Include="Events\LoadIsOffEvent.cs" />
+    <Compile Include="Events\LoadOffEvent.cs" />
+    <Compile Include="Events\LoadRampToLevelEvent.cs" />
+    <Compile Include="Events\LoadLowerEvent.cs" />
+    <Compile Include="Events\LoadRaiseEvent.cs" />
+    <Compile Include="Events\LoadLevelEvent.cs" />
+    <Compile Include="Events\LoadOnEvent.cs" />
+    <Compile Include="Events\RoomEvent.cs" />
+    <Compile Include="Events\RoomOnEvent.cs" />
+    <Compile Include="Events\SceneAtLevelEvent.cs" />
+    <Compile Include="Events\SubscribedEvent.cs" />
+    <Compile Include="System\LightingSystem.cs" />
+    <Compile Include="UserInterface\ITouchPanelView.cs" />
+    <Compile Include="System\LightingFactory.cs" />
+    <Compile Include="UserInterface\TouchPanelView.cs" />
+    <Compile Include="System\TouchPanelManager.cs" />
+    <Compile Include="Modules\eUserSigType.cs" />
+    <Compile Include="System\ILightingSystem.cs" />
+    <Compile Include="Entities\LightedRoom.cs" />
+    <Compile Include="Entities\LightingLoad.cs" />
+    <Compile Include="Events\LoadEvent.cs" />
+    <Compile Include="System\LoadManager.cs" />
+    <Compile Include="Entities\LoadState.cs" />
+    <Compile Include="System\RoomManager.cs" />
+    <Compile Include="Entities\Scene.cs" />
+    <Compile Include="System\SceneManager.cs" />
+    <Compile Include="Modules\UserSig.cs" />
+    <Compile Include="Modules\XSIG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Configuration\SerializationRoom.cs" />
+    <Compile Include="Configuration\SettingsManager.cs" />
+    <Compile Include="UserInterface\PagedList.cs" />
+    <Compile Include="UserInterface\TouchPanelPresenter.cs" />
+    <None Include="Properties\ControlSystem.cfg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>rem S# Pro preparation will execute after these operations</PostBuildEvent>
+  </PropertyGroup>
+</Project>

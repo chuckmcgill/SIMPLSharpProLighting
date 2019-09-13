@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{F89FC6AA-73FD-4209-BE96-DC06291B28FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIMPLSharpLightingManager", "SIMPLSharpLightingManager\SIMPLSharpLightingManager.csproj", "{9331E459-85F5-4034-A4F0-3090BF17CDAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug Not RO|Any CPU = Debug Not RO|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release Not RO|Any CPU = Release Not RO|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Debug Not RO|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Debug Not RO|Any CPU.Build.0 = Debug|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Release Not RO|Any CPU.ActiveCfg = Release|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Release Not RO|Any CPU.Build.0 = Release|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F89FC6AA-73FD-4209-BE96-DC06291B28FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Debug Not RO|Any CPU.ActiveCfg = Debug|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Debug Not RO|Any CPU.Build.0 = Debug|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Release Not RO|Any CPU.ActiveCfg = Release|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Release Not RO|Any CPU.Build.0 = Release|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9331E459-85F5-4034-A4F0-3090BF17CDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
